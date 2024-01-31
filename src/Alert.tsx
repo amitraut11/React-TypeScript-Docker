@@ -1,7 +1,7 @@
 import { type } from "@testing-library/user-event/dist/type";
 import { useState } from "react";
 
-type AlertProps = {
+interface AlertProps {
     type?: "information" | "warning";
     heading: string;
     children: React.ReactNode;
